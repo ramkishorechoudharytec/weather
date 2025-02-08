@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -55,3 +56,62 @@ body{
     display: none;
     margin-top: 1.5rem;
 }
+=======
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.container{
+    width: 400px;
+    height: min-content;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 28px;
+}
+.weather-img{
+    width: 20%;
+}
+.location-not-found{
+    display: none;
+    font-size: x-small;
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+
+.location-not-found img{
+    width: 50%;
+}
+.h1{
+
+}
+.weather-body{
+    display: none;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+.weather-details{
+    display: none;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+.weather-box{
+    justify-content: center;
+    align-items: center;
+    display: none;
+    margin-top: 1.5rem;
+}
+>>>>>>> 8367930 (Initial commit)
