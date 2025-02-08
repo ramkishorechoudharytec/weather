@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEATHER APP</title>
+    <link rel="stylesheet" href="./weather.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <div class="header">
+                    <div class="search-box">
+                        <input type="text" placeholder="Enter Your City" class="input-box">
+                        <button type="button" id="searchBtn">SEARCH</button>
+                    </div>
+                </div>
+                <div class="location-not-found">
+                    <h1>Sorry, Location not found !!!</h1>
+                    <img src="./assets/404.png" alt="404 error">
+                </div>
+                <div class="weather-body">
+                    <img src="./assets/cloud.png" alt="weather" class="weather-img">
+                </div>
+                <div class="weather-box">
+                    <p class="temperature">0<sup>°C</sup></p>
+                </div>
+                <div class="weather-box">
+                    <p class="description">Rain Cloud</p>
+                </div>
+                <div class="weather-details">
+                    <div class="humidity">
+                        <div class="text">
+                            <p>Humidity: <span id="humidity">45%</span></p>
+                        </div>
+                    </div>
+                    <div class="winds">
+                        <div class="text">
+                            <p>Winds: <span id="winds">45km/h</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/weathe.js"></script>
+</body>
+
+</html>
